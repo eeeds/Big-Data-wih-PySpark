@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  frontend:
+    image: jupyter/pyspark-notebook
+    volumes:
+      - type: bind
+        source: ./code
+        target: /home/jovyan/work
+    ports:
+      - "8888:8888"
+    
