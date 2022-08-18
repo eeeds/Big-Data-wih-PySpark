@@ -19,3 +19,5 @@ docker-compose build
 ```
 docker-compose up -d
 ```
+This final docker-compose is working well
+
